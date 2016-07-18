@@ -125,3 +125,7 @@ Two things happenend when the server's `Start()` method is invoked:
 The server's `handleConn()` method processes and validates all incoming messages. I/O operations are performed using the Golang standard [`bufio`](https://golang.org/pkg/bufio/) package to enable buffering. The connection with the client remains alive until an `EOF` is received from the client.
 
 To exit the server, press `ctrl+c` to send a `SIGINT` signal to initiate a shutdown, including closing the server's TCP listener and channels.
+
+## LICENSE
+
+Refer [LICENSE](LICENSE) file.
