@@ -9,7 +9,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/dev/indexer"
+	"github.com/ihcsim/indexer"
 )
 
 // TCPServer can handle requests over TCP network.

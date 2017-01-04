@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dev/indexer"
+	"github.com/ihcsim/indexer"
 )
 
 func TestListenAt(t *testing.T) {
