@@ -1,5 +1,7 @@
 # Indexer
 
+[ ![Codeship Status for ihcsim/indexer](https://app.codeship.com/projects/ea6dc910-b4e5-0134-3167-5ed8b845772e/status?branch=master)](https://app.codeship.com/projects/193889)
+
 The Indexer keeps track of packages name and their dependencies. A package is like a library that you installed on your machine using package manager like apt, RPM or Homebrew. It aims to be a fast registry that provides clean interfaces to index, remove and query packages. Messages can be sent to the Indexer over TCP network.
 
 ## Requirement
